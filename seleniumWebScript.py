@@ -55,9 +55,19 @@ def main():
         pyautogui.hotkey('alt','left')
         pyautogui.hotkey('alt','left')
         pyautogui.hotkey('alt','left')
-        
+   
+#==============================================================================
+# things to do     
+#==============================================================================
 
+'''
+find out how to save it in one single directory
+find out how to save it as one single html file instead of html and resource files
+'''
 
+#==============================================================================
+# things done
+#==============================================================================
 #first xpath to be looped through    
 '''//*[@id="GamesListContainer1"]/div[2]/ul/li[1]/div/a'''  
 #vs + li[i] to be iterated through
@@ -66,6 +76,10 @@ def main():
 #//*[@id="tab-about"]/a
 #//*[@id="tab-store"]/a
 #//*[@id="tab-leaderboards"]/a
+
+#==============================================================================
+# functions
+#==============================================================================
 
 '''to make this script less hardcoded change the unwanted str variable to remove 
 unwanted generic url address text for better naming conventions  '''
